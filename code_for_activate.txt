@@ -1,0 +1,2 @@
+mkvirtualenv
+Desktop>pip install virtualenvwrapper-win

@@ -1,4 +1,9 @@
-import pyfiglet
+class User:
 
-print(pyfiglet.figlet_format('hello', 'arial'))
-mj = [1, 2, 3]
+    def __init__(self, username=input('enter username: '), userfamily=input('enter userfamily: ')):
+        self.username = username
+        self.userfamily = userfamily
+        print(f"{self.username} {self.userfamily}")
+
+
+User()
